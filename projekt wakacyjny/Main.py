@@ -7,7 +7,7 @@ class Main():
         try:
             nazwa = input('Podaj nazwę użytkownika: ')
             if not nazwa:
-                raise ValueError('Nazwa użytkownika nie może być pusta')#wywołaj error
+                raise ValueError('Nazwa użytkownika nie może być pusta')
             
             haslo = input('Podaj hasło użytkownika: ')
             if not haslo:
@@ -47,10 +47,10 @@ class Main():
                             if decyzja==4:
                                 zawartosc["uzytkownicy"]["..."]["rola"] = int(input("nazwa roli z uprawnieniami: "))
                             
-                            #Zapis
+                        
                             with open('uzytkownicy.json', 'w') as plikZapis:
                                 json.dump(zawartosc, plikZapis)
-                        #print(uzytkownik["nazwa"])
+                       
         except IOError as e:
             print("Nie znaleziono pliku")
 
