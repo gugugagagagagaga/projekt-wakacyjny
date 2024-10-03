@@ -1,0 +1,6 @@
+{
+    "uzytkownicy": [
+        {"nazwa": "Mikolaj", "haslo": "123", "wiek": "15", "rola": "admin"},
+        {"nazwa": "Mateusz", "haslo": "123", "wiek": "24", "rola": "uzytkownik"}
+    ]
+}
