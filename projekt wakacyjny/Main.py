@@ -54,18 +54,6 @@ class Main():
         except IOError as e:
             print("Nie znaleziono pliku")
 
-        '''
-        uzytkownik1 = Uzytkownik("Mikolaj", "123")
-        #print(uzytkownik1.podaj_nazwe())
-        #print(uzytkownik1.podaj_haslo())
-        
-        if nazwa == uzytkownik1.podaj_nazwe():
-            print("jest taki użytkownik")
-        else:
-            print("nie ma takiego użytkownika")
-        #print("Działa!")
-        '''
-
 if __name__ == "__main__":
     main = Main()
     main.start()
